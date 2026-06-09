@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <title>Aula 10 HTML</title>
+
+    <style>
+        div {
+            background-color: darkorange;
+            width: 300px;
+            /* margin: auto; */
+        }
+
+      .div-principal {
+        width: 100%;
+        overflow: auto;
+        background-color: transparent;
+      }
+
+      .div-principal {
+        width: 33%;
+        float: left;
+       
+      }
+     
+     .div-mae{
+        width: 100%;
+        overflow: auto;
+        background-color: transparent;
+     }
+
+     .div-mae div{
+        width: 30%;
+        display: inline-block;
+     }
+
+     .div-pai {
+        display: flex;
+        background-color: transparent;
+     }
+
+     .div-pai div {
+        width: 33%;
+     }
+
+     .grid-countainer {
+        display: grid;
+        background-color: transparent;
+        grid-template-columns: 33% 33% 33%;
+     }
+     </style>
+
+
+</head>
+<body>
+    <!-- Exemplos de div no HTML -->
+
+    <h2>Utilizando div no HTML</h2>
+
+    <div>
+        <h3>Isso é um h3</h3>
+        <p>Somente a dor coletiva gera união</p>
+        <p>Somente a dor coletiva gera união</p>
+    </div>
+
+    <p>O travesseiro da tranquilidade existe, mas nem todos podem deitar sobre ele</p>
+
+<hr>
+
+<!-- Exemplo de várias divs no HTML -->
+
+<div style="background-color: magenta;">
+    <h3>São paulo</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quia quis blanditiis suscipit voluptatem, rem sapiente, quisquam ea vitae hic nisi incidunt qui itaque amet maiores, sit ab illum consequuntur.</p>
+</div>
+
+<div style="background-color: darkolivegreen;">
+    <h3>Rio de Janeiro</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, mollitia eligendi! Id nemo corporis quod atque hic? Ab quae, ut, unde quas hic alias delectus adipisci illum fuga, a inventore.</p>
+</div>
+
+<div style="background-color: greenyellow;">
+    <h3>Belo Horizonte</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quas repellat ducimus voluptatibus magnam eligendi, dicta qui recusandae inventore, ipsa voluptatem saepe beatae ullam dignissimos vel, laborum perferendis distinctio nulla.</p>
+</div>
+
+<hr>
+
+<!-- Alinhando divs (lado a lado) -->
+
+<h2>Exemplo de alinhamento entre divs</h2>
+
+<div class="div-principal">
+
+<div style="background-color: darkorange;">
+    <h3>Laranja</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, consectetur ipsa! Quam fugiat obcaecati error repellat. In iste et distinctio libero vero. Iusto facere fugiat facilis. Beatae quibusdam inventore itaque!</p>
+</div>
+
+<div style="background-color: darkred;">
+    <h3>Morango</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil cum nobis architecto quisquam minima laborum tenetur dolorem non, officia porro eligendi saepe quas alias quasi, consequatur repudiandae, autem deserunt.</p>
+</div>
+
+<div style="background-color: yellow;">
+
+    <h3>Abacaxi</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eos architecto id exercitationem velit minima mollitia aperiam esse aliquam quam dolorum iure unde, nulla sapiente asperiores. Ducimus dicta deserunt explicabo!</p>
+    </div>
+
+</div>
+
+<hr>
+
+<div class="div-mae">
+<div style="background-color: darkred;">
+    <h3>Morango</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil cum nobis architecto quisquam minima laborum tenetur dolorem non, officia porro eligendi saepe quas alias quasi, consequatur repudiandae, autem deserunt.</p>
+</div>
+
+<div style="background-color: yellow;">
+
+    <h3>Abacaxi</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eos architecto id exercitationem velit minima mollitia aperiam esse aliquam quam dolorum iure unde, nulla sapiente asperiores. Ducimus dicta deserunt explicabo!</p>
+    </div>
+
+</div>
+
+<hr>
+
+<div class="div-pai">
+
+    <div style="background-color: darkorchid;">
+        <h3>Cinza</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, iste nobis eligendi molestiae tempora impedit enim obcaecati modi ad exercitationem repellat ipsam nesciunt corrupti aliquam sint distinctio a. Magnam, necessitatibus!</p>
+    </div>
+
+    <div style="background-color: darkorchid;">
+        <h3>Roxo</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptatem, nostrum vero delectus atque eius autem, suscipit possimus eos, non consectetur? Neque voluptatum laborum itaque illum praesentium quasi non? Quod.</p>
+    </div>
+
+    <div style="background-color: cornflowerblue;">
+        <h3>Azul</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam suscipit in ipsum hic, enim doloremque provident nam asperiores adipisci eaque totam! Consequatur dolores omnis libero voluptatibus repellendus laboriosam adipisci provident?</p>
+    </div>
+    
+</div>
+
+<hr>
+
+<div class="grid-container">
+
+    <div style="background-color: aquamarine;">
+        <h3>Titulo1 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, assumenda itaque omnis, totam earum magni voluptate dolores voluptatibus, molestiae facilis pariatur quisquam nobis qui error quod architecto eius vel minus?</p>
+    </div>
+
+    <div style="background-color: pink;">
+        <h3>Titulo 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis asperiores sapiente commodi modi libero consequuntur suscipit doloribus dignissimos dolore, quis illum. Alias dolorum iure exercitationem dolorem repudiandae commodi quos adipisci?</p>
+    </div>
+
+    <div style="background-color: cadetblue;">
+        <h3>Titulo 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quis sit quod quas, saepe quisquam voluptate exercitationem consequatur aliquam similique corrupti reprehenderit quia iure omnis voluptatum quam et animi iusto.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
